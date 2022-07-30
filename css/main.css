@@ -82,6 +82,9 @@ footer{
     float: bottom;
     margin-bottom: 100px;
 }
+figure { 
+    display: inline-block;
+}
 
 .text-5 {
     font-size: 20pt;
@@ -121,10 +124,11 @@ b {
     width:100%;
     height: auto;
 }
-.me {
+.collage {
     display:block;
     max-width:100%;
-    height: auto;
+    width:300;
+    height:300;
     border-radius: 5px;
 }
 
