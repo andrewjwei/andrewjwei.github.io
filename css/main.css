@@ -130,9 +130,10 @@ b {
 }
 .collage {
     display:block;
+    box-sizing: border-box;
     max-width:100%;
-    width:300;
-    height:300;
+    width:400;
+    height:400;
     border-radius: 5px;
 }
 
