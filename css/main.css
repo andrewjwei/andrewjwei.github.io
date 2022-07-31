@@ -101,7 +101,6 @@ figure {
 figcaption{
     display:table-caption;
     caption-side:bottom;
-    width: 100%;
     height: 50px;
 }
 
