@@ -60,6 +60,14 @@ p {
     from {opacity: 20%}
     to {opacity: 100%}
 }
+#containertop {
+    position: relative;
+    float: top;
+    width: 100%;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
 #containerleft {
     position: relative;
     float: left;
