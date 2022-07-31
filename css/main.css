@@ -108,7 +108,7 @@ figcaption{
     display:table-caption;
     caption-side:bottom;
     height: 85px;
-    width: 30%;
+    width: 100%;
 }
 
 .text-5 {
