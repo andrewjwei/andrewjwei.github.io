@@ -64,10 +64,7 @@ p {
     position: relative;
     float: top;
     width: 100%;
-    width: 5em;
-    margin-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
+    margin: 5em;
 }
 #containerleft {
     position: relative;
