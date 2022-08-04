@@ -25,7 +25,7 @@ body {
 }
 #mynav a:hover {
     text-decoration: none;
-    color:#ec008c;
+    color:#001155;
 }
 #mynav a {
     text-decoration: none;
@@ -33,7 +33,7 @@ body {
 }
 a {
     text-decoration: underline;
-    color: #ec008c;
+    color: #001155;
 }
 h1 {
     font-size: 3em;
@@ -135,9 +135,6 @@ figcaption{
     line-height: 13pt;
     color: #4b4848;
 }
-.pink {
-    color: #ec008c;
-}
 
 b {
     color: black;
@@ -165,10 +162,10 @@ b {
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: solid 1pt;
-    border-color: #ec008c;
+    border-color: #001155;
     outline: none;
     background-color: white; /* Set a background color */
-    color: #ec008c; /* Text color */
+    color: #001155; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding-left: 10px; /* Some padding */
     padding-right: 10px; /* Some padding */
@@ -177,6 +174,6 @@ b {
 }
 
 #myBtn:hover {
-  background-color: #ec008c; /* Set a background color */
+  background-color: #001155; /* Set a background color */
   color: white; /* Text color */
 }
