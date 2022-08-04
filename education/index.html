@@ -5,20 +5,7 @@
 		<link rel="stylesheet" href="/css/main.css">
 	</head>
 <body>
-	<div padding = "10px">
-		<nav id="mynav" style="animation-name: nav; animation-duration: 2s;">
-			<span id="myname" style="animation-name: myname; animation-duration: 2s;"><a href="/">ANDREW WEI</a></span>
-			<ul>
-				<li><a href="/Resume.pdf">Resume</a></li>
-				<li><a href="https://github.com/andrewjwei">GitHub</a></li>
-				<li><a href="/education" style="color:#001155">Education</a></li>
-				<li><a href="/offtopic">Off-Topic</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</nav>
-		<br>
-		<br>
-	</div>
+	<div w3-include-html="nav.html"></div>
     
     <div>
         <p class="text-5">Coursework</p>
@@ -48,6 +35,12 @@
         <p class="text-2"><b>Algorithms (Prof. Andre Wibisono)</b></p>
         <p class="text-1">The course covered <i>Paradigms for algorithmic problem solving: greedy algorithms, divide and conquer, dynamic programming, and network flow. NP completeness and approximation algorithms for NP-complete problems.</i></p>
     </div>
+
+
+	<script src="https://www.w3schools.com/lib/w3data.js"></script>
+	<script>
+		w3IncludeHTML();
+	</script>
 
 </body>
 </html>
