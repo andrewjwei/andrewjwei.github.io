@@ -1,9 +1,15 @@
 @import url('//fonts.googleapis.com/css?family=PT+Sans+Caption:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('//fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 
 * {
-    font-family: 'PT Sans Caption', Helvetica, sans-serif;
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
+
+:root {
+    --main-color: #1a18a9;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -25,7 +31,7 @@ body {
 }
 #mynav a:hover {
     text-decoration: none;
-    color:#001155;
+    color: var(--main-color);
 }
 #mynav a {
     text-decoration: none;
@@ -33,12 +39,13 @@ body {
 }
 a {
     text-decoration: underline;
-    color: #001155;
+    color: var(--main-color);
 }
 h1 {
     font-size: 3em;
 }
 #myname {
+    font-family: 'PT Sans Caption', Helvetica, sans-serif;
     margin: -5px;
     font-size: 85px;
 }
@@ -157,10 +164,10 @@ b {
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: solid 1pt;
-    border-color: #001155;
+    border-color: var(--main-color);
     outline: none;
     background-color: white; /* Set a background color */
-    color: #001155; /* Text color */
+    color: var(--main-color); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding-left: 10px; /* Some padding */
     padding-right: 10px; /* Some padding */
@@ -169,6 +176,6 @@ b {
 }
 
 #myBtn:hover {
-  background-color: #001155; /* Set a background color */
+  background-color: var(--main-color); /* Set a background color */
   color: white; /* Text color */
 }
