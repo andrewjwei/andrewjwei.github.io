@@ -1,7 +1,7 @@
-@import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('//fonts.googleapis.com/css?family=PT+Sans+Caption:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 
 * {
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-family: 'PT Sans Caption', Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
 body {
@@ -39,10 +39,8 @@ h1 {
     font-size: 3em;
 }
 #myname {
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     margin: -5px;
     font-size: 85px;
-    font-weight: 600;
 }
 @keyframes myname {
     from {margin-left: -40px; opacity: 20%}
@@ -50,7 +48,6 @@ h1 {
 }
 
 #containerfull {
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     animation-name: containerfull;
     animation-duration: 2s;
 }
