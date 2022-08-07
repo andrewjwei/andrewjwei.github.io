@@ -1,8 +1,9 @@
 @import url('//fonts.googleapis.com/css?family=PT+Sans+Caption:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 @import url('//fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+@import url('//fonts.googleapis.com/css?family=Josefin+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 
 * {
-    font-family: 'Nunito Sans', Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -45,9 +46,10 @@ h1 {
     font-size: 3em;
 }
 #myname {
-    font-family: 'PT Sans Caption', Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
     margin: -5px;
     font-size: 85px;
+    font-weight: 600;
 }
 @keyframes myname {
     from {margin-left: -40px; opacity: 20%}
