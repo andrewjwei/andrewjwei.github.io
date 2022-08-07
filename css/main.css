@@ -70,7 +70,7 @@ h1 {
     width: 100%;
     padding: 5px;
 }
-#containerleft {
+#mainpagecontainerleft {
     position: relative;
     float: left;
     width: 70%;
@@ -78,7 +78,7 @@ h1 {
     padding-left: 0%;
     padding-right: 0%;
 }
-#containerright {
+#mainpagecontainerright {
     position: relative;
     float: right;
     width: 25%;
