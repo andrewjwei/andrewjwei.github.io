@@ -87,7 +87,7 @@ h1 {
     padding-left: 5%;
     padding-right: 0%;
 }
-#containerbottom {
+.containerbottom {
     position: relative;
     float: bottom;
     width: 100%;
