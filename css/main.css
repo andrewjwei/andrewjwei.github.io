@@ -34,6 +34,7 @@ body {
     color: var(--main-color);
 }
 #mynav a {
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     color: black;
 }
