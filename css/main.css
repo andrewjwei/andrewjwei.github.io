@@ -64,13 +64,13 @@ h1 {
     from {opacity: 20%}
     to {opacity: 100%}
 }
-#containertop {
+.containertop {
     position: relative;
     float: top;
     width: 100%;
     padding: 5px;
 }
-#containerleft {
+.containerleft {
     position: relative;
     float: left;
     width: 70%;
@@ -78,7 +78,7 @@ h1 {
     padding-left: 0%;
     padding-right: 0%;
 }
-#containerright {
+.containerright {
     position: relative;
     float: right;
     width: 25%;
