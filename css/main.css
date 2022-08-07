@@ -1,3 +1,4 @@
+@import url('//fonts.googleapis.com/css?family=PT+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 @import url('//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 
@@ -34,7 +35,6 @@ body {
     color: var(--main-color);
 }
 #mynav a {
-    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     color: black;
 }
