@@ -35,6 +35,7 @@ body {
     color: var(--main-color);
 }
 #mynav a {
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     color: black;
 }
@@ -46,7 +47,6 @@ h1 {
     font-size: 3em;
 }
 #myname {
-    font-family: 'Josefin Sans', sans-serif;
     margin: -5px;
     font-size: 85px;
     font-weight: 600;
