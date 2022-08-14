@@ -128,7 +128,7 @@ figure {
 figcaption{
     display:table-caption;
     caption-side:bottom;
-    height: 85px;
+    height: 40px;
     width: 100%;
 }
 
